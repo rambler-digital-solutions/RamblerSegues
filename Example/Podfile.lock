@@ -1,0 +1,14 @@
+PODS:
+  - RamblerSegues (0.1.0)
+
+DEPENDENCIES:
+  - RamblerSegues (from `../`)
+
+EXTERNAL SOURCES:
+  RamblerSegues:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RamblerSegues: 2e9bd24ecae75b73a83b7571215d3723a99f984f
+
+COCOAPODS: 0.38.2
