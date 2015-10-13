@@ -7,6 +7,7 @@
 //
 
 #import "RamblerViewController.h"
+#import <RamblerSegues/RamblerSegues.h>
 
 @interface RamblerViewController ()
 
@@ -24,6 +25,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - RamblerEmbedSegueViewContainer
+
+- (UIView*)viewForSegue:(NSString*)segueIdentifier {
+    if ([segueIdentifier isEqualToString:@"EmbedSegueExample"]) {
+        return self.embedSegueContainer;
+    }
+    return nil;
 }
 
 @end

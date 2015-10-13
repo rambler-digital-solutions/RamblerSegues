@@ -1,5 +1,9 @@
 PODS:
-  - RamblerSegues (0.1.0)
+  - RamblerSegues (1.0.0):
+    - RamblerSegues/CrossStoryboardSegue (= 1.0.0)
+    - RamblerSegues/EmbedSegue (= 1.0.0)
+  - RamblerSegues/CrossStoryboardSegue (1.0.0)
+  - RamblerSegues/EmbedSegue (1.0.0)
 
 DEPENDENCIES:
   - RamblerSegues (from `../`)
@@ -9,6 +13,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RamblerSegues: 2e9bd24ecae75b73a83b7571215d3723a99f984f
+  RamblerSegues: 0a915511ec8c61a947a132611e5c3fe5ebaa61f3
 
 COCOAPODS: 0.38.2

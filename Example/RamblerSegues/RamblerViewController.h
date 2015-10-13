@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import <RamblerSegues/RamblerSegues.h>
 
-@interface RamblerViewController : UIViewController
+@interface RamblerViewController : UIViewController<RamblerEmbedSegueViewContainer>
+
+@property (weak, nonatomic) IBOutlet UIView *embedSegueContainer;
 
 @end
