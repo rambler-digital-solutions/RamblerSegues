@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xaj-OF-POQ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="X3x-OW-FZH">
+            <objects>
+                <navigationController id="xaj-OF-POQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ep3-q9-I5G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="aG9-eh-RZ1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R24-lJ-SIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-441" y="357"/>
+        </scene>
         <!--Rambler View Controller-->
         <scene sceneID="wQg-tq-qST">
             <objects>
@@ -18,10 +35,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HpK-z7-PES">
-                                <rect key="frame" x="16" y="16" width="568" height="492"/>
+                                <rect key="frame" x="16" y="80" width="568" height="428"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3iU-Pe-hMn">
-                                        <rect key="frame" x="1" y="1" width="566" height="490"/>
+                                        <rect key="frame" x="1" y="1" width="566" height="426"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -44,7 +61,6 @@
                                 </constraints>
                                 <state key="normal" title="Cross Storyboard Segue Example"/>
                                 <connections>
-                                    <action selector="didClickCrossStoryboardSegueButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="6ao-5l-wwd"/>
                                     <segue destination="969-aX-0eZ" kind="show" identifier="CrossStoryboardSegueExample" id="QJC-ZY-pMe"/>
                                 </connections>
                             </button>
@@ -57,7 +73,6 @@
                                 </constraints>
                                 <state key="normal" title="Embed Segue Example"/>
                                 <connections>
-                                    <action selector="didClickEmbedSegueButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="Ojx-gf-UIh"/>
                                     <segue destination="K8B-v9-kIg" kind="custom" identifier="EmbedSegueExample" customClass="RamblerEmbedSegue" id="C83-tT-dva"/>
                                 </connections>
                             </button>
@@ -71,6 +86,7 @@
                             <constraint firstItem="YnN-sd-wEK" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="8BH-1j-Ii3"/>
                             <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="qts-Z7-GPM" secondAttribute="bottom" constant="8" id="9D2-gS-4I4"/>
                             <constraint firstItem="HpK-z7-PES" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="DnF-8a-G4B"/>
+                            <constraint firstItem="HpK-z7-PES" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="16" id="baK-zm-qhj"/>
                             <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="qts-Z7-GPM" secondAttribute="bottom" constant="8" id="goP-pv-iRf"/>
                             <constraint firstItem="HpK-z7-PES" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" constant="16" id="jnp-af-B6B"/>
                             <constraint firstAttribute="trailing" secondItem="HpK-z7-PES" secondAttribute="trailing" constant="16" id="vPv-PN-0oq"/>
@@ -78,13 +94,15 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="jnp-af-B6B"/>
                                 <exclude reference="85E-se-0Uo"/>
                                 <exclude reference="goP-pv-iRf"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="PCl-GK-e83"/>
                     <connections>
-                        <outlet property="EmbedSegueContainer" destination="3iU-Pe-hMn" id="awb-pY-GH3"/>
+                        <outlet property="embedSegueContainer" destination="3iU-Pe-hMn" id="xrK-by-INd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

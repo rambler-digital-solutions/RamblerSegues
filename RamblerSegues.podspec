@@ -24,6 +24,7 @@ Helpful Segues
   s.author           = { "Andrey Zarembo-Godzyatskiy" => "andrey.zarembo@gmail.com" }
   s.source           = { :git => "https://gitlab.rambler.ru/cocoapods/RamblerSegues.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.header_mappings_dir = 'Pod/Classes'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,7 +34,11 @@ Helpful Segues
     'RamblerSegues' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'CrossStoryboardSegue' do |css|
+    css.source_files = "CrossStoryboardSegue/CrossStoryboardSegue.h", "CrossStoryboardSegue/**/*.{h,m}"
+  end
+
+  s.subspec 'EmbedSegue' do |es|
+    es.source_files = "EmbedSegue/EmbedSegue.h", "EmbedSegue/**/*.{h,m}"
+  end
 end

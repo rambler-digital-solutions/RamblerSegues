@@ -33,6 +33,7 @@
     if ([segueIdentifier isEqualToString:@"EmbedSegueExample"]) {
         return self.embedSegueContainer;
     }
+    return nil;
 }
 
 @end

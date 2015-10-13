@@ -10,6 +10,6 @@
 #define RamblerSegues_h
 
 #import "CrossStoryboardSegue/CrossStoryboardSegue.h"
-
+#import "EmbedSegue/EmbedSegue.h"
 
 #endif /* RamblerSegues_h */

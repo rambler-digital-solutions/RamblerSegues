@@ -26,8 +26,7 @@
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName
                                                          bundle:nil];
-    id destinationViewController = [storyboard instantiateViewControllerWithIdentifier:self.restorationIdentifier
-];
+    id destinationViewController = [storyboard instantiateViewControllerWithIdentifier:viewControllerId];
     return destinationViewController;
 }
 
