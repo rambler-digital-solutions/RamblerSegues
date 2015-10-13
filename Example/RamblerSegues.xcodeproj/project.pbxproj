@@ -23,6 +23,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		733D9CB87CD401BDC8A6BCA6 /* Pods-RamblerSegues_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamblerSegues_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RamblerSegues_Tests/Pods-RamblerSegues_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B37D8427DB23EE655FD6C60D /* Pods-RamblerSegues_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamblerSegues_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RamblerSegues_Example/Pods-RamblerSegues_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnotherStoryboard.storyboard; sourceTree = "<group>"; };
 		EB9A53EEAE44D48075F410ED /* RamblerSegues.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RamblerSegues.podspec; path = ../RamblerSegues.podspec; sourceTree = "<group>"; };
 		F983FE29F168A13EE51E551E /* Pods-RamblerSegues_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamblerSegues_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RamblerSegues_Example/Pods-RamblerSegues_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 				6003F5A6195388D20070C39A /* RamblerViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */,
 			);
 			name = "Example for RamblerSegues";
 			path = RamblerSegues;
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
