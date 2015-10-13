@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RamblerSegues_Example', :exclusive => true do
+  pod "RamblerSegues", :path => "../"
+end
+
+target 'RamblerSegues_Tests', :exclusive => true do
+  pod "RamblerSegues", :path => "../"
+
+  
+end
