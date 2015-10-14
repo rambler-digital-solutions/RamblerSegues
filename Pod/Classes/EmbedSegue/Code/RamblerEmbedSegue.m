@@ -23,7 +23,7 @@
                                userInfo:nil] raise];
     }
     
-    UIView *containerView = [parentViewController viewForSegue:self.identifier];
+    UIView *containerView = [parentViewController viewForEmbedIdentifier:self.identifier];
     
     [parentViewController addChildViewController:embeddableModuleViewController];
     UIView *moduleView = embeddableModuleViewController.view;

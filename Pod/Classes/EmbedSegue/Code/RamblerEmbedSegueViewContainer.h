@@ -13,6 +13,13 @@
  */
 @protocol RamblerEmbedSegueViewContainer <NSObject>
 
-- (UIView*)viewForSegue:(NSString*)segueIdentifier;
+/**
+ This method returns a container view for a specified identifier
+ 
+ @param embedIdentifier Embed Segue Identifier
+ 
+ @return Container view
+ */
+- (UIView *)viewForEmbedIdentifier:(NSString *)embedIdentifier;
 
 @end

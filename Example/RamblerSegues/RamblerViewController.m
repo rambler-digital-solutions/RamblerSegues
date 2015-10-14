@@ -29,8 +29,8 @@
 
 #pragma mark - RamblerEmbedSegueViewContainer
 
-- (UIView*)viewForSegue:(NSString*)segueIdentifier {
-    if ([segueIdentifier isEqualToString:@"EmbedSegueExample"]) {
+- (UIView*)viewForEmbedIdentifier:(NSString*)embedIdentifier {
+    if ([embedIdentifier isEqualToString:@"EmbedSegueExample"]) {
         return self.embedSegueContainer;
     }
     return nil;
