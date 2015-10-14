@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RamblerSegues"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Helpful Segues"
 
   s.description      = <<-DESC
