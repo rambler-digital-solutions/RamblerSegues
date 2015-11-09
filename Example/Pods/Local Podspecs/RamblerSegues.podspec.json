@@ -1,6 +1,6 @@
 {
   "name": "RamblerSegues",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "Helpful Segues",
   "description": "Helpful Segues\n\n- Cross storyboard segues with placeholder view controller\n- Non-automatic embed view controller segue<<-DESC",
   "homepage": "https://gitlab.rambler.ru/cocoapods/RamblerSegues.git",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://gitlab.rambler.ru/cocoapods/RamblerSegues.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "header_mappings_dir": "Pod/Classes",
   "platforms": {
@@ -27,14 +27,14 @@
     {
       "name": "CrossStoryboardSegue",
       "source_files": [
-        "CrossStoryboardSegue/CrossStoryboardSegue.h",
+        "CrossStoryboardSegue.h",
         "CrossStoryboardSegue/**/*.{h,m}"
       ]
     },
     {
       "name": "EmbedSegue",
       "source_files": [
-        "EmbedSegue/EmbedSegue.h",
+        "EmbedSegue.h",
         "EmbedSegue/**/*.{h,m}"
       ]
     }
