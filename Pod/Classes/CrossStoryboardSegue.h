@@ -9,7 +9,7 @@
 #ifndef CrossStoryboardSegue_h
 #define CrossStoryboardSegue_h
 
-#import "RamblerPlaceholderViewController.h"
-#import "UIStoryboardSegue+RamblerCrossStoryboardSegue.h"
+#import "CrossStoryboardSegue/RamblerPlaceholderViewController.h"
+#import "CrossStoryboardSegue/UIStoryboardSegue+RamblerCrossStoryboardSegue.h"
 
 #endif /* CrossStoryboardSegue_h */

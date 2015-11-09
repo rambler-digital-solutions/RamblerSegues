@@ -23,7 +23,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				1A0E571B3FB8D70D72B982ED /* Copy Pods Resources */,
+				F2F67C61B56C14B80AAA608F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +228,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				7580903665201D608AC4D75F /* Copy Pods Resources */,
+				B6AB1A6BCE28968BEC0618C1 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,6 +355,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6AB1A6BCE28968BEC0618C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RamblerSegues_Tests/Pods-RamblerSegues_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F67C61B56C14B80AAA608F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RamblerSegues_Example/Pods-RamblerSegues_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

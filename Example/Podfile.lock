@@ -10,9 +10,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   RamblerSegues:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   RamblerSegues: 0a915511ec8c61a947a132611e5c3fe5ebaa61f3
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
