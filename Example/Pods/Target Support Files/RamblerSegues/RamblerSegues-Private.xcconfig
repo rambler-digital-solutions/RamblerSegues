@@ -1,5 +1,0 @@
-#include "RamblerSegues.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/RamblerSegues" "${PODS_ROOT}/Headers/Private/RamblerSegues/CrossStoryboardSegue" "${PODS_ROOT}/Headers/Private/RamblerSegues/CrossStoryboardSegue/Code" "${PODS_ROOT}/Headers/Private/RamblerSegues/EmbedSegue" "${PODS_ROOT}/Headers/Private/RamblerSegues/EmbedSegue/Code" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/RamblerSegues" "${PODS_ROOT}/Headers/Public/RamblerSegues/CrossStoryboardSegue" "${PODS_ROOT}/Headers/Public/RamblerSegues/CrossStoryboardSegue/Code" "${PODS_ROOT}/Headers/Public/RamblerSegues/EmbedSegue" "${PODS_ROOT}/Headers/Public/RamblerSegues/EmbedSegue/Code"
-PODS_ROOT = ${SRCROOT}
-SKIP_INSTALL = YES
