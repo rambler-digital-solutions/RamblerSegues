@@ -7,204 +7,203 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19B8AE92C82B8D4C0BE46FF36BF9E115 /* RamblerSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D096AA7B7C3202B85046A9B950ADB39 /* RamblerSegues.h */; };
-		324E3C6481E90A30917479E956DAF20A /* CrossStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1019F6E913C41C2812791D4CEB5F9CB4 /* CrossStoryboardSegue.h */; };
-		32CBC6FE72B3E201FDF18B39FF69ABAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774CB9B8C8FA5F8A38F6AF910B8053B2 /* Foundation.framework */; };
-		34C724B6B9A3BF64D79EBCE34CF9A561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774CB9B8C8FA5F8A38F6AF910B8053B2 /* Foundation.framework */; };
-		3D70B8EDBA6E1FCBCBE4C8A960BA17F0 /* EmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E247E2855BCEBC2F4CD1D9EFFDDB2CD /* EmbedSegue.h */; };
-		4039B62F4CAA52C911DBE09D927D9042 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEC07546272D4AEC71D6D6A586FF3B4 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m */; };
-		56E43DE524693EE7F1DF0378907DA436 /* RamblerSegues-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EA210AB71B170D2EC1D742B839F57 /* RamblerSegues-dummy.m */; };
-		6759F123C41A7F969D42B2A88F14D443 /* RamblerPlaceholderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42779DD37065D8157EE96AA86A6FB6CC /* RamblerPlaceholderViewController.h */; };
-		8BF21C2C11124F2ED308C0EB18C9F2CE /* RamblerEmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C579CDD9D4F7BDC46A2C348C8A78445 /* RamblerEmbedSegue.h */; };
-		907D9CE4197A20C99E17F34492AE40AE /* RamblerEmbedSegueViewContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D57FCD4184C3029EB3FDCA34A9AB859B /* RamblerEmbedSegueViewContainer.h */; };
-		9B2CE5597C46E3E84AE26229C2E920D9 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 502AEFC50BEAD410F07C67704CBEBC89 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */; };
-		B42A5F49D37C7138CA9CDB5D573F756E /* RamblerPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDEF389DF7CEC7E8938193FAC2F5EA7 /* RamblerPlaceholderViewController.m */; };
-		BA12E9B38DFC30BBFC2C3CB958E1F049 /* Pods-RamblerSegues_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A009D27C00A282CD7D34D981E1B9B758 /* Pods-RamblerSegues_Example-dummy.m */; };
-		D405ED557188C52CC6435B7D0659DAD1 /* RamblerEmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B17288C39B1207FE23B641955E009A /* RamblerEmbedSegue.m */; };
-		E4AAEA02E8D2321DC044EF8E609061CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774CB9B8C8FA5F8A38F6AF910B8053B2 /* Foundation.framework */; };
-		EF4D49A31315BD09A8282E16C58ACBE3 /* Pods-RamblerSegues_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A05C8A0DD91C16ADDD8EE75003B1D7E /* Pods-RamblerSegues_Tests-dummy.m */; };
+		0B96E0F4E54A392901F6A4533DC10923 /* RamblerEmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = BE80AF4ACA37B828461774178CD86A94 /* RamblerEmbedSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3F8B4D13141CA2249635527947D9A9 /* Pods-RamblerSegues_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EA4105F810E469A2E45CD61D75E3A1 /* Pods-RamblerSegues_Tests-dummy.m */; };
+		15566598A6672A096CAFAF400CBF9316 /* RamblerSegues-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E12B3B023C2855ED4D5BB6E2E236472 /* RamblerSegues-dummy.m */; };
+		35AC35180AB5E9D5774C6829287E466D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3D3C1F7C5969ED39647D2B21FEDBC203 /* Pods-RamblerSegues_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB95A37A166753BCE4E7D8B2B15B724 /* Pods-RamblerSegues_Example-dummy.m */; };
+		58982503EEEE7580F5FA661E341E63BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7B944DB994A9991E677A7114003BAD6A /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ADAA9FE12329C1B9BA9F49EECDAB6F /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m */; };
+		8F758C116F37DBD49A0FB356C0370048 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 188BB7DAC1DB8EEDB4AE18F15302B42E /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		902B899BBC5C0D7C5608267687D71ED1 /* RamblerPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41CF7BF9CD70293748F8C1077D00A40 /* RamblerPlaceholderViewController.m */; };
+		9BE4A8EB27FF9F0412367523FA7F56DC /* EmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3E0B772965EE725FBBBBCC57BC055F /* EmbedSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8211DFE9DE24D8F902C2E96ADC7B1B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C052C7833472D30385F810114117C7C7 /* CrossStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = E15E76F01D4EC1CAE60C67A03CF66233 /* CrossStoryboardSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9742F244E76AB4692D081038305577E /* RamblerEmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D2A23473CA7E87642B48E73325D34 /* RamblerEmbedSegue.m */; };
+		EE01005C568089AC5758A0EA1365F5AE /* RamblerSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D264EF37E56D92B23F3E6221AB9474 /* RamblerSegues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F057BAA543AD7FBBC237904AF53ED2E7 /* RamblerEmbedSegueViewContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B72DB7C2DCA1E3EF568DE6AFFB0FFFF2 /* RamblerEmbedSegueViewContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BC9BE51C0CE8F5DDE156EEF73784CD /* RamblerPlaceholderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 042C58A50BBD95B2738A005EA64AFBC6 /* RamblerPlaceholderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E881D6D137F4B69CDC14EEB001DC9A1 /* PBXContainerItemProxy */ = {
+		34E58A5F7EF279D0408FD243243E1FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF77216DD94D0859B22937273CFF59B;
+			remoteGlobalIDString = C9110ADADE09E2B2C3F16A5D93B5F8F4;
 			remoteInfo = RamblerSegues;
 		};
-		57DC13472A2FAAD41ECE54AB92A53522 /* PBXContainerItemProxy */ = {
+		8E016886E862381718117E6C15ECDD53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AD9474CF48E63E9E3CDB7943C3D954A;
+			remoteGlobalIDString = 2689B5669E82A4F5367218B160409239;
 			remoteInfo = "RamblerSegues-RamblerSegues";
 		};
-		D86300A249BFB369793D1C42B3FF82E1 /* PBXContainerItemProxy */ = {
+		DE846EC841B3937183AD39E70D20E4C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF77216DD94D0859B22937273CFF59B;
+			remoteGlobalIDString = C9110ADADE09E2B2C3F16A5D93B5F8F4;
 			remoteInfo = RamblerSegues;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08D965A45D850D38F5CF4ADE5EB6B266 /* Pods-RamblerSegues_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerSegues_Example-resources.sh"; sourceTree = "<group>"; };
-		0C579CDD9D4F7BDC46A2C348C8A78445 /* RamblerEmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerEmbedSegue.h; sourceTree = "<group>"; };
-		1019F6E913C41C2812791D4CEB5F9CB4 /* CrossStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CrossStoryboardSegue.h; sourceTree = "<group>"; };
-		212E4A5D8E4681DD84C8E5BA049508BB /* Pods-RamblerSegues_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		28EB088B198971F5FB5620FAE6031301 /* Pods-RamblerSegues_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RamblerSegues_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33ADB60212BD01B7476D94176672F5AA /* Pods-RamblerSegues_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		42779DD37065D8157EE96AA86A6FB6CC /* RamblerPlaceholderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerPlaceholderViewController.h; sourceTree = "<group>"; };
-		48D7294370D92A16A42D98E588F8AC12 /* libPods-RamblerSegues_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerSegues_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		502AEFC50BEAD410F07C67704CBEBC89 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+RamblerCrossStoryboardSegue.h"; sourceTree = "<group>"; };
-		56F06E12DF602AF5A3620146819CC656 /* Pods-RamblerSegues_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RamblerSegues_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A05C8A0DD91C16ADDD8EE75003B1D7E /* Pods-RamblerSegues_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RamblerSegues_Tests-dummy.m"; sourceTree = "<group>"; };
-		60B17288C39B1207FE23B641955E009A /* RamblerEmbedSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerEmbedSegue.m; sourceTree = "<group>"; };
-		63A4A1ECE7C6ABA3190A2FB01FB7BE50 /* RamblerSegues.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamblerSegues.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		660EA210AB71B170D2EC1D742B839F57 /* RamblerSegues-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RamblerSegues-dummy.m"; sourceTree = "<group>"; };
-		66208CE141C7F9AB80125CAB3C57FD2E /* RamblerSegues.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RamblerSegues.xcconfig; sourceTree = "<group>"; };
-		6E63262610971D9246B1D59F9F77A266 /* Pods-RamblerSegues_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71519BD606C39894831B317BD5471EA3 /* libPods-RamblerSegues_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerSegues_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		774CB9B8C8FA5F8A38F6AF910B8053B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8D096AA7B7C3202B85046A9B950ADB39 /* RamblerSegues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerSegues.h; sourceTree = "<group>"; };
-		8E51919CBD37151226075984107D8DE8 /* libRamblerSegues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRamblerSegues.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E247E2855BCEBC2F4CD1D9EFFDDB2CD /* EmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EmbedSegue.h; sourceTree = "<group>"; };
-		A009D27C00A282CD7D34D981E1B9B758 /* Pods-RamblerSegues_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RamblerSegues_Example-dummy.m"; sourceTree = "<group>"; };
-		A6EFE19D8EEF3624C2AF3005B079D694 /* RamblerSegues-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RamblerSegues-Private.xcconfig"; sourceTree = "<group>"; };
+		042C58A50BBD95B2738A005EA64AFBC6 /* RamblerPlaceholderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerPlaceholderViewController.h; sourceTree = "<group>"; };
+		044D2A23473CA7E87642B48E73325D34 /* RamblerEmbedSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerEmbedSegue.m; sourceTree = "<group>"; };
+		188BB7DAC1DB8EEDB4AE18F15302B42E /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+RamblerCrossStoryboardSegue.h"; sourceTree = "<group>"; };
+		27ADAA9FE12329C1B9BA9F49EECDAB6F /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+RamblerCrossStoryboardSegue.m"; sourceTree = "<group>"; };
+		2D3E0B772965EE725FBBBBCC57BC055F /* EmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EmbedSegue.h; sourceTree = "<group>"; };
+		2F4199CF144F8CB33CEC9DFB20EFD832 /* Pods-RamblerSegues_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2FB95A37A166753BCE4E7D8B2B15B724 /* Pods-RamblerSegues_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RamblerSegues_Example-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41C9ABC706878861CAADADEB4EC605BC /* Pods-RamblerSegues_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RamblerSegues_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		520371B00C31A4A49F514F5D25EE97E2 /* Pods-RamblerSegues_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerSegues_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58EA4105F810E469A2E45CD61D75E3A1 /* Pods-RamblerSegues_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RamblerSegues_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C3A4D2B13026512CF8EE96C549E8AAA /* RamblerSegues-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RamblerSegues-prefix.pch"; sourceTree = "<group>"; };
+		686A6D55748F343DDE721BB733E59290 /* RamblerSegues.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamblerSegues.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E35B8C91D02214CBD970BAEC8757E98 /* libPods-RamblerSegues_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerSegues_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A050E3BCED1EE0BA9D58CF33D259C3 /* Pods-RamblerSegues_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RamblerSegues_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E12B3B023C2855ED4D5BB6E2E236472 /* RamblerSegues-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RamblerSegues-dummy.m"; sourceTree = "<group>"; };
+		9BC83E49D329D14578781B10424A3C94 /* Pods-RamblerSegues_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RamblerSegues_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1D264EF37E56D92B23F3E6221AB9474 /* RamblerSegues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerSegues.h; sourceTree = "<group>"; };
+		A8889842025B2C13A0F51DD92FCCF70B /* Pods-RamblerSegues_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RamblerSegues_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A939D6E8B1CCB1BD945C1CC27832D820 /* libRamblerSegues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRamblerSegues.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFE4C8B856A4ED7618F9A75713B66E3 /* Pods-RamblerSegues_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72DB7C2DCA1E3EF568DE6AFFB0FFFF2 /* RamblerEmbedSegueViewContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerEmbedSegueViewContainer.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB34BBFC1B6FABEE9E47C088D4D1A350 /* Pods-RamblerSegues_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CB8C4158C90B00AF57D7F2DD5C2AA736 /* Pods-RamblerSegues_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerSegues_Tests-resources.sh"; sourceTree = "<group>"; };
-		D57FCD4184C3029EB3FDCA34A9AB859B /* RamblerEmbedSegueViewContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerEmbedSegueViewContainer.h; sourceTree = "<group>"; };
-		EAEC07546272D4AEC71D6D6A586FF3B4 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+RamblerCrossStoryboardSegue.m"; sourceTree = "<group>"; };
-		ECC9985D1EF216B689B5ED13A1417027 /* RamblerSegues-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RamblerSegues-prefix.pch"; sourceTree = "<group>"; };
-		EFDEF389DF7CEC7E8938193FAC2F5EA7 /* RamblerPlaceholderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerPlaceholderViewController.m; sourceTree = "<group>"; };
-		F14AF6E232CE1CAE02599960626F673F /* Pods-RamblerSegues_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RamblerSegues_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F7A6158FF748E4763680A3BEA155AE5B /* Pods-RamblerSegues_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RamblerSegues_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBD6E44D3E5B7BAEFBDF56F6E7A23488 /* Pods-RamblerSegues_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerSegues_Tests-resources.sh"; sourceTree = "<group>"; };
+		BE80AF4ACA37B828461774178CD86A94 /* RamblerEmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerEmbedSegue.h; sourceTree = "<group>"; };
+		C41CF7BF9CD70293748F8C1077D00A40 /* RamblerPlaceholderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerPlaceholderViewController.m; sourceTree = "<group>"; };
+		D510B66136B2B42E42F0954C2FC352FA /* Pods-RamblerSegues_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerSegues_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E15E76F01D4EC1CAE60C67A03CF66233 /* CrossStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CrossStoryboardSegue.h; sourceTree = "<group>"; };
+		ECA9638A333ECAD60AB681FDAF9C52A1 /* Pods-RamblerSegues_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F008856E5320F72856798CDABC3798F2 /* libPods-RamblerSegues_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerSegues_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F183B0723CEF3A80839B49D825052537 /* Pods-RamblerSegues_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerSegues_Example-resources.sh"; sourceTree = "<group>"; };
+		FB5B0399B80931792581BFC88605B513 /* Pods-RamblerSegues_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerSegues_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FF77DB7E2BCAF67418B3E0E8F3065CE5 /* RamblerSegues.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RamblerSegues.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09707EBECEF241A40C0A5ADFF46D8DD8 /* Frameworks */ = {
+		0786EE0DE889A5B55AE4E0B0089AA153 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AAEA02E8D2321DC044EF8E609061CE /* Foundation.framework in Frameworks */,
+				58982503EEEE7580F5FA661E341E63BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B49CE5AD42FE0EAD8260DF41891245D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32CBC6FE72B3E201FDF18B39FF69ABAF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A832E12F98D9F893D1FAB008189282C /* Frameworks */ = {
+		16541016A55C83FF7CAC02BCB06DC399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD93181C4986CC91D4B68E423D893C8F /* Frameworks */ = {
+		5FFC5080C6F24AE6F41F75D3F5D3B2DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C724B6B9A3BF64D79EBCE34CF9A561 /* Foundation.framework in Frameworks */,
+				B8211DFE9DE24D8F902C2E96ADC7B1B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D2D9E688D4D724897FBCA01B389B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AC35180AB5E9D5774C6829287E466D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32A0BFC8A9527CBFB2C265AD76BD0B41 /* Pods-RamblerSegues_Example */ = {
+		0FFFFBAE64A497FC377062781496BBF2 /* RamblerSegues */ = {
 			isa = PBXGroup;
 			children = (
-				28EB088B198971F5FB5620FAE6031301 /* Pods-RamblerSegues_Example-acknowledgements.markdown */,
-				F7A6158FF748E4763680A3BEA155AE5B /* Pods-RamblerSegues_Example-acknowledgements.plist */,
-				A009D27C00A282CD7D34D981E1B9B758 /* Pods-RamblerSegues_Example-dummy.m */,
-				08D965A45D850D38F5CF4ADE5EB6B266 /* Pods-RamblerSegues_Example-resources.sh */,
-				CB34BBFC1B6FABEE9E47C088D4D1A350 /* Pods-RamblerSegues_Example.debug.xcconfig */,
-				6E63262610971D9246B1D59F9F77A266 /* Pods-RamblerSegues_Example.release.xcconfig */,
-			);
-			name = "Pods-RamblerSegues_Example";
-			path = "Target Support Files/Pods-RamblerSegues_Example";
-			sourceTree = "<group>";
-		};
-		43CD6E3966455277F7B2AD7000AF8802 /* CrossStoryboardSegue */ = {
-			isa = PBXGroup;
-			children = (
-				1019F6E913C41C2812791D4CEB5F9CB4 /* CrossStoryboardSegue.h */,
-				7BD48B3BD85FD5CC9B7925BFD02EEE0D /* Code */,
-			);
-			path = CrossStoryboardSegue;
-			sourceTree = "<group>";
-		};
-		4E648A5837612BE301657A14E384DC46 /* RamblerSegues */ = {
-			isa = PBXGroup;
-			children = (
-				5B50C98A8D6E10123E463498A5875E29 /* Pod */,
-				A29A444324E28967CA3910FC2C6C95C8 /* Support Files */,
+				649822D7228366A4BC757F56B791FD94 /* Pod */,
+				C408218B2D1C4E0391BE87AFB6479F88 /* Support Files */,
 			);
 			name = RamblerSegues;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		511FEC2B9419D20E49E14F97AA4D87C1 /* Code */ = {
+		1153700DAD4214A08602FDB189D3C543 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C579CDD9D4F7BDC46A2C348C8A78445 /* RamblerEmbedSegue.h */,
-				60B17288C39B1207FE23B641955E009A /* RamblerEmbedSegue.m */,
-				D57FCD4184C3029EB3FDCA34A9AB859B /* RamblerEmbedSegueViewContainer.h */,
+				6FB7A443A82B13BBEC9BFA2727B38720 /* Pods-RamblerSegues_Example */,
+				28408B5F090B5FE965A35E55BB3B83E4 /* Pods-RamblerSegues_Tests */,
 			);
-			path = Code;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		28408B5F090B5FE965A35E55BB3B83E4 /* Pods-RamblerSegues_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				774CB9B8C8FA5F8A38F6AF910B8053B2 /* Foundation.framework */,
+				A8889842025B2C13A0F51DD92FCCF70B /* Pods-RamblerSegues_Tests-acknowledgements.markdown */,
+				41C9ABC706878861CAADADEB4EC605BC /* Pods-RamblerSegues_Tests-acknowledgements.plist */,
+				58EA4105F810E469A2E45CD61D75E3A1 /* Pods-RamblerSegues_Tests-dummy.m */,
+				D510B66136B2B42E42F0954C2FC352FA /* Pods-RamblerSegues_Tests-frameworks.sh */,
+				BBD6E44D3E5B7BAEFBDF56F6E7A23488 /* Pods-RamblerSegues_Tests-resources.sh */,
+				ACFE4C8B856A4ED7618F9A75713B66E3 /* Pods-RamblerSegues_Tests.debug.xcconfig */,
+				FB5B0399B80931792581BFC88605B513 /* Pods-RamblerSegues_Tests.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-RamblerSegues_Tests";
+			path = "Target Support Files/Pods-RamblerSegues_Tests";
+			sourceTree = "<group>";
+		};
+		3C1BF09D1CB47B27F71A14DDD6F8A952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E35B8C91D02214CBD970BAEC8757E98 /* libPods-RamblerSegues_Example.a */,
+				F008856E5320F72856798CDABC3798F2 /* libPods-RamblerSegues_Tests.a */,
+				A939D6E8B1CCB1BD945C1CC27832D820 /* libRamblerSegues.a */,
+				686A6D55748F343DDE721BB733E59290 /* RamblerSegues.bundle */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		56D15AE1D39E2730017F9FD4C4C6A474 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E648A5837612BE301657A14E384DC46 /* RamblerSegues */,
+				0FFFFBAE64A497FC377062781496BBF2 /* RamblerSegues */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5B50C98A8D6E10123E463498A5875E29 /* Pod */ = {
+		62C383CEFDE775B68C22BE35151C6D54 /* EmbedSegue */ = {
 			isa = PBXGroup;
 			children = (
-				64EF8DE77D9907EDD2137AE4FDE6DA49 /* Classes */,
+				BE80AF4ACA37B828461774178CD86A94 /* RamblerEmbedSegue.h */,
+				044D2A23473CA7E87642B48E73325D34 /* RamblerEmbedSegue.m */,
+				B72DB7C2DCA1E3EF568DE6AFFB0FFFF2 /* RamblerEmbedSegueViewContainer.h */,
+			);
+			path = EmbedSegue;
+			sourceTree = "<group>";
+		};
+		649822D7228366A4BC757F56B791FD94 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A06CF84B98043478B243EB9FE3FBD17 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		64EF8DE77D9907EDD2137AE4FDE6DA49 /* Classes */ = {
+		6FB7A443A82B13BBEC9BFA2727B38720 /* Pods-RamblerSegues_Example */ = {
 			isa = PBXGroup;
 			children = (
-				8D096AA7B7C3202B85046A9B950ADB39 /* RamblerSegues.h */,
-				43CD6E3966455277F7B2AD7000AF8802 /* CrossStoryboardSegue */,
-				FA3769F9894C6DD92792D41D1174876D /* EmbedSegue */,
+				70A050E3BCED1EE0BA9D58CF33D259C3 /* Pods-RamblerSegues_Example-acknowledgements.markdown */,
+				9BC83E49D329D14578781B10424A3C94 /* Pods-RamblerSegues_Example-acknowledgements.plist */,
+				2FB95A37A166753BCE4E7D8B2B15B724 /* Pods-RamblerSegues_Example-dummy.m */,
+				520371B00C31A4A49F514F5D25EE97E2 /* Pods-RamblerSegues_Example-frameworks.sh */,
+				F183B0723CEF3A80839B49D825052537 /* Pods-RamblerSegues_Example-resources.sh */,
+				ECA9638A333ECAD60AB681FDAF9C52A1 /* Pods-RamblerSegues_Example.debug.xcconfig */,
+				2F4199CF144F8CB33CEC9DFB20EFD832 /* Pods-RamblerSegues_Example.release.xcconfig */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7BD48B3BD85FD5CC9B7925BFD02EEE0D /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				42779DD37065D8157EE96AA86A6FB6CC /* RamblerPlaceholderViewController.h */,
-				EFDEF389DF7CEC7E8938193FAC2F5EA7 /* RamblerPlaceholderViewController.m */,
-				502AEFC50BEAD410F07C67704CBEBC89 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */,
-				EAEC07546272D4AEC71D6D6A586FF3B4 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m */,
-			);
-			path = Code;
+			name = "Pods-RamblerSegues_Example";
+			path = "Target Support Files/Pods-RamblerSegues_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -213,101 +212,88 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				56D15AE1D39E2730017F9FD4C4C6A474 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				B2D9DB24902A1B6D87AC5540B9CEF6AC /* Targets Support Files */,
+				3C1BF09D1CB47B27F71A14DDD6F8A952 /* Products */,
+				1153700DAD4214A08602FDB189D3C543 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A29A444324E28967CA3910FC2C6C95C8 /* Support Files */ = {
+		8A06CF84B98043478B243EB9FE3FBD17 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				66208CE141C7F9AB80125CAB3C57FD2E /* RamblerSegues.xcconfig */,
-				A6EFE19D8EEF3624C2AF3005B079D694 /* RamblerSegues-Private.xcconfig */,
-				660EA210AB71B170D2EC1D742B839F57 /* RamblerSegues-dummy.m */,
-				ECC9985D1EF216B689B5ED13A1417027 /* RamblerSegues-prefix.pch */,
+				E15E76F01D4EC1CAE60C67A03CF66233 /* CrossStoryboardSegue.h */,
+				2D3E0B772965EE725FBBBBCC57BC055F /* EmbedSegue.h */,
+				A1D264EF37E56D92B23F3E6221AB9474 /* RamblerSegues.h */,
+				D6D08158A5B509204F974150DFBD1EC9 /* CrossStoryboardSegue */,
+				62C383CEFDE775B68C22BE35151C6D54 /* EmbedSegue */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RamblerSegues";
-			sourceTree = "<group>";
-		};
-		B2D9DB24902A1B6D87AC5540B9CEF6AC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				32A0BFC8A9527CBFB2C265AD76BD0B41 /* Pods-RamblerSegues_Example */,
-				BF47FC78BF163C25ABA73D136AB19948 /* Pods-RamblerSegues_Tests */,
-			);
-			name = "Targets Support Files";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF47FC78BF163C25ABA73D136AB19948 /* Pods-RamblerSegues_Tests */ = {
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				56F06E12DF602AF5A3620146819CC656 /* Pods-RamblerSegues_Tests-acknowledgements.markdown */,
-				F14AF6E232CE1CAE02599960626F673F /* Pods-RamblerSegues_Tests-acknowledgements.plist */,
-				5A05C8A0DD91C16ADDD8EE75003B1D7E /* Pods-RamblerSegues_Tests-dummy.m */,
-				CB8C4158C90B00AF57D7F2DD5C2AA736 /* Pods-RamblerSegues_Tests-resources.sh */,
-				212E4A5D8E4681DD84C8E5BA049508BB /* Pods-RamblerSegues_Tests.debug.xcconfig */,
-				33ADB60212BD01B7476D94176672F5AA /* Pods-RamblerSegues_Tests.release.xcconfig */,
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
-			name = "Pods-RamblerSegues_Tests";
-			path = "Target Support Files/Pods-RamblerSegues_Tests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		C408218B2D1C4E0391BE87AFB6479F88 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63A4A1ECE7C6ABA3190A2FB01FB7BE50 /* RamblerSegues.bundle */,
-				71519BD606C39894831B317BD5471EA3 /* libPods-RamblerSegues_Example.a */,
-				48D7294370D92A16A42D98E588F8AC12 /* libPods-RamblerSegues_Tests.a */,
-				8E51919CBD37151226075984107D8DE8 /* libRamblerSegues.a */,
+				FF77DB7E2BCAF67418B3E0E8F3065CE5 /* RamblerSegues.xcconfig */,
+				7E12B3B023C2855ED4D5BB6E2E236472 /* RamblerSegues-dummy.m */,
+				5C3A4D2B13026512CF8EE96C549E8AAA /* RamblerSegues-prefix.pch */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RamblerSegues";
 			sourceTree = "<group>";
 		};
-		FA3769F9894C6DD92792D41D1174876D /* EmbedSegue */ = {
+		D6D08158A5B509204F974150DFBD1EC9 /* CrossStoryboardSegue */ = {
 			isa = PBXGroup;
 			children = (
-				9E247E2855BCEBC2F4CD1D9EFFDDB2CD /* EmbedSegue.h */,
-				511FEC2B9419D20E49E14F97AA4D87C1 /* Code */,
+				042C58A50BBD95B2738A005EA64AFBC6 /* RamblerPlaceholderViewController.h */,
+				C41CF7BF9CD70293748F8C1077D00A40 /* RamblerPlaceholderViewController.m */,
+				188BB7DAC1DB8EEDB4AE18F15302B42E /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */,
+				27ADAA9FE12329C1B9BA9F49EECDAB6F /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m */,
 			);
-			path = EmbedSegue;
+			path = CrossStoryboardSegue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		582AC334227D7F6F6BC1735545951E0E /* Headers */ = {
+		4AFDBAA9C54071E62BD3380EFA1911DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324E3C6481E90A30917479E956DAF20A /* CrossStoryboardSegue.h in Headers */,
-				3D70B8EDBA6E1FCBCBE4C8A960BA17F0 /* EmbedSegue.h in Headers */,
-				8BF21C2C11124F2ED308C0EB18C9F2CE /* RamblerEmbedSegue.h in Headers */,
-				907D9CE4197A20C99E17F34492AE40AE /* RamblerEmbedSegueViewContainer.h in Headers */,
-				6759F123C41A7F969D42B2A88F14D443 /* RamblerPlaceholderViewController.h in Headers */,
-				19B8AE92C82B8D4C0BE46FF36BF9E115 /* RamblerSegues.h in Headers */,
-				9B2CE5597C46E3E84AE26229C2E920D9 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h in Headers */,
+				C052C7833472D30385F810114117C7C7 /* CrossStoryboardSegue.h in Headers */,
+				9BE4A8EB27FF9F0412367523FA7F56DC /* EmbedSegue.h in Headers */,
+				0B96E0F4E54A392901F6A4533DC10923 /* RamblerEmbedSegue.h in Headers */,
+				F057BAA543AD7FBBC237904AF53ED2E7 /* RamblerEmbedSegueViewContainer.h in Headers */,
+				F8BC9BE51C0CE8F5DDE156EEF73784CD /* RamblerPlaceholderViewController.h in Headers */,
+				EE01005C568089AC5758A0EA1365F5AE /* RamblerSegues.h in Headers */,
+				8F758C116F37DBD49A0FB356C0370048 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AD9474CF48E63E9E3CDB7943C3D954A /* RamblerSegues-RamblerSegues */ = {
+		2689B5669E82A4F5367218B160409239 /* RamblerSegues-RamblerSegues */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B8927AABE8AE1F09A2228BC516D70A9 /* Build configuration list for PBXNativeTarget "RamblerSegues-RamblerSegues" */;
+			buildConfigurationList = 97D3A17FB6B5A926739CC7859C8205D4 /* Build configuration list for PBXNativeTarget "RamblerSegues-RamblerSegues" */;
 			buildPhases = (
-				4A70FC4822DEAB2098A6CE7323F36046 /* Sources */,
-				7A832E12F98D9F893D1FAB008189282C /* Frameworks */,
-				0D655469BDB43D9ADFBFF1972DE9919F /* Resources */,
+				FAAC0D92C25600168C6D45E695CA9A2D /* Sources */,
+				16541016A55C83FF7CAC02BCB06DC399 /* Frameworks */,
+				E3D92D6B8BDDD760DE29107C628B6AC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -315,59 +301,59 @@
 			);
 			name = "RamblerSegues-RamblerSegues";
 			productName = "RamblerSegues-RamblerSegues";
-			productReference = 63A4A1ECE7C6ABA3190A2FB01FB7BE50 /* RamblerSegues.bundle */;
+			productReference = 686A6D55748F343DDE721BB733E59290 /* RamblerSegues.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		591AC08BC828DD3FF9CE72A33F57FB1D /* Pods-RamblerSegues_Tests */ = {
+		40056254EED609FD6EECBFE794DE00DB /* Pods-RamblerSegues_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E286A5756BE8C42F8C0FA689B59F629 /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Tests" */;
+			buildConfigurationList = 1F0EA9671656A1DE4D72740267D3312C /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Example" */;
 			buildPhases = (
-				0A72D941793B9FD165C0BD7FF9FB17DB /* Sources */,
-				1B49CE5AD42FE0EAD8260DF41891245D /* Frameworks */,
+				4EE1E5E69D16DAD98A945F64C0C83A39 /* Sources */,
+				0786EE0DE889A5B55AE4E0B0089AA153 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				571C23A4C640393279C05CA2AA89E346 /* PBXTargetDependency */,
-			);
-			name = "Pods-RamblerSegues_Tests";
-			productName = "Pods-RamblerSegues_Tests";
-			productReference = 48D7294370D92A16A42D98E588F8AC12 /* libPods-RamblerSegues_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		921EBD59015E31BD7E7741D235A65761 /* Pods-RamblerSegues_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5670ED4788205FAD08C015D5566394C5 /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Example" */;
-			buildPhases = (
-				F04290222529D6EE077B64B11169DD14 /* Sources */,
-				09707EBECEF241A40C0A5ADFF46D8DD8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				73A748BF2C81B1E3F4624BE144F52A5A /* PBXTargetDependency */,
+				8A553C988BF7B2D3D9EBD78E7E340510 /* PBXTargetDependency */,
 			);
 			name = "Pods-RamblerSegues_Example";
 			productName = "Pods-RamblerSegues_Example";
-			productReference = 71519BD606C39894831B317BD5471EA3 /* libPods-RamblerSegues_Example.a */;
+			productReference = 6E35B8C91D02214CBD970BAEC8757E98 /* libPods-RamblerSegues_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ABF77216DD94D0859B22937273CFF59B /* RamblerSegues */ = {
+		C26D2D9CF3F5037DBAF982A6F6D6B08E /* Pods-RamblerSegues_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AF1D4327A9D8FE710159797C2458254 /* Build configuration list for PBXNativeTarget "RamblerSegues" */;
+			buildConfigurationList = 648D06291BB9284A1D0C4042B069462F /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Tests" */;
 			buildPhases = (
-				A02203B455C248B58604E0EDBE115313 /* Sources */,
-				BD93181C4986CC91D4B68E423D893C8F /* Frameworks */,
-				582AC334227D7F6F6BC1735545951E0E /* Headers */,
+				AD6FBE855E82DDF02876E38910B463FD /* Sources */,
+				E7D2D9E688D4D724897FBCA01B389B3E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C8520EB0373AEE6DFDB013D0F76CA3C /* PBXTargetDependency */,
+				87B4B62ECC83B4E45621D0F0ABE80B09 /* PBXTargetDependency */,
+			);
+			name = "Pods-RamblerSegues_Tests";
+			productName = "Pods-RamblerSegues_Tests";
+			productReference = F008856E5320F72856798CDABC3798F2 /* libPods-RamblerSegues_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9110ADADE09E2B2C3F16A5D93B5F8F4 /* RamblerSegues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43015182134047148E4E9DD4F20AB519 /* Build configuration list for PBXNativeTarget "RamblerSegues" */;
+			buildPhases = (
+				967CE6206887A5350B7E4A26FAFCBA12 /* Sources */,
+				5FFC5080C6F24AE6F41F75D3F5D3B2DB /* Frameworks */,
+				4AFDBAA9C54071E62BD3380EFA1911DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92135C7B0381F6C23982260DACE1DB20 /* PBXTargetDependency */,
 			);
 			name = RamblerSegues;
 			productName = RamblerSegues;
-			productReference = 8E51919CBD37151226075984107D8DE8 /* libRamblerSegues.a */;
+			productReference = A939D6E8B1CCB1BD945C1CC27832D820 /* libRamblerSegues.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -387,20 +373,20 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 3C1BF09D1CB47B27F71A14DDD6F8A952 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				921EBD59015E31BD7E7741D235A65761 /* Pods-RamblerSegues_Example */,
-				591AC08BC828DD3FF9CE72A33F57FB1D /* Pods-RamblerSegues_Tests */,
-				ABF77216DD94D0859B22937273CFF59B /* RamblerSegues */,
-				0AD9474CF48E63E9E3CDB7943C3D954A /* RamblerSegues-RamblerSegues */,
+				40056254EED609FD6EECBFE794DE00DB /* Pods-RamblerSegues_Example */,
+				C26D2D9CF3F5037DBAF982A6F6D6B08E /* Pods-RamblerSegues_Tests */,
+				C9110ADADE09E2B2C3F16A5D93B5F8F4 /* RamblerSegues */,
+				2689B5669E82A4F5367218B160409239 /* RamblerSegues-RamblerSegues */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D655469BDB43D9ADFBFF1972DE9919F /* Resources */ = {
+		E3D92D6B8BDDD760DE29107C628B6AC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,60 +396,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A72D941793B9FD165C0BD7FF9FB17DB /* Sources */ = {
+		4EE1E5E69D16DAD98A945F64C0C83A39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4D49A31315BD09A8282E16C58ACBE3 /* Pods-RamblerSegues_Tests-dummy.m in Sources */,
+				3D3C1F7C5969ED39647D2B21FEDBC203 /* Pods-RamblerSegues_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A70FC4822DEAB2098A6CE7323F36046 /* Sources */ = {
+		967CE6206887A5350B7E4A26FAFCBA12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9742F244E76AB4692D081038305577E /* RamblerEmbedSegue.m in Sources */,
+				902B899BBC5C0D7C5608267687D71ED1 /* RamblerPlaceholderViewController.m in Sources */,
+				15566598A6672A096CAFAF400CBF9316 /* RamblerSegues-dummy.m in Sources */,
+				7B944DB994A9991E677A7114003BAD6A /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A02203B455C248B58604E0EDBE115313 /* Sources */ = {
+		AD6FBE855E82DDF02876E38910B463FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D405ED557188C52CC6435B7D0659DAD1 /* RamblerEmbedSegue.m in Sources */,
-				B42A5F49D37C7138CA9CDB5D573F756E /* RamblerPlaceholderViewController.m in Sources */,
-				56E43DE524693EE7F1DF0378907DA436 /* RamblerSegues-dummy.m in Sources */,
-				4039B62F4CAA52C911DBE09D927D9042 /* UIStoryboardSegue+RamblerCrossStoryboardSegue.m in Sources */,
+				0F3F8B4D13141CA2249635527947D9A9 /* Pods-RamblerSegues_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F04290222529D6EE077B64B11169DD14 /* Sources */ = {
+		FAAC0D92C25600168C6D45E695CA9A2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA12E9B38DFC30BBFC2C3CB958E1F049 /* Pods-RamblerSegues_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C8520EB0373AEE6DFDB013D0F76CA3C /* PBXTargetDependency */ = {
+		87B4B62ECC83B4E45621D0F0ABE80B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RamblerSegues;
+			target = C9110ADADE09E2B2C3F16A5D93B5F8F4 /* RamblerSegues */;
+			targetProxy = DE846EC841B3937183AD39E70D20E4C8 /* PBXContainerItemProxy */;
+		};
+		8A553C988BF7B2D3D9EBD78E7E340510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RamblerSegues;
+			target = C9110ADADE09E2B2C3F16A5D93B5F8F4 /* RamblerSegues */;
+			targetProxy = 34E58A5F7EF279D0408FD243243E1FD4 /* PBXContainerItemProxy */;
+		};
+		92135C7B0381F6C23982260DACE1DB20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RamblerSegues-RamblerSegues";
-			target = 0AD9474CF48E63E9E3CDB7943C3D954A /* RamblerSegues-RamblerSegues */;
-			targetProxy = 57DC13472A2FAAD41ECE54AB92A53522 /* PBXContainerItemProxy */;
-		};
-		571C23A4C640393279C05CA2AA89E346 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RamblerSegues;
-			target = ABF77216DD94D0859B22937273CFF59B /* RamblerSegues */;
-			targetProxy = 4E881D6D137F4B69CDC14EEB001DC9A1 /* PBXContainerItemProxy */;
-		};
-		73A748BF2C81B1E3F4624BE144F52A5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RamblerSegues;
-			target = ABF77216DD94D0859B22937273CFF59B /* RamblerSegues */;
-			targetProxy = D86300A249BFB369793D1C42B3FF82E1 /* PBXContainerItemProxy */;
+			target = 2689B5669E82A4F5367218B160409239 /* RamblerSegues-RamblerSegues */;
+			targetProxy = 8E016886E862381718117E6C15ECDD53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -499,6 +485,23 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7AD920EA1C52657805FE8B566C0DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5B0399B80931792581BFC88605B513 /* Pods-RamblerSegues_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -541,12 +544,13 @@
 			};
 			name = Debug;
 		};
-		0DFCD710526BE3D331A9C0BF791F557D /* Release */ = {
+		2F9FD8125C1CE0EB419FDAFE9572CC11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E63262610971D9246B1D59F9F77A266 /* Pods-RamblerSegues_Example.release.xcconfig */;
+			baseConfigurationReference = 2F4199CF144F8CB33CEC9DFB20EFD832 /* Pods-RamblerSegues_Example.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -557,41 +561,9 @@
 			};
 			name = Release;
 		};
-		145FD05A0AA6FFBB57F9120FA9B45139 /* Debug */ = {
+		588919B9A83D123979008CBA444508AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB34BBFC1B6FABEE9E47C088D4D1A350 /* Pods-RamblerSegues_Example.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		42728CE86785DD800C012FC3B24FEE85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33ADB60212BD01B7476D94176672F5AA /* Pods-RamblerSegues_Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		571FD5B4BAB64FD042EA8E688DE4A5E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6EFE19D8EEF3624C2AF3005B079D694 /* RamblerSegues-Private.xcconfig */;
+			baseConfigurationReference = FF77DB7E2BCAF67418B3E0E8F3065CE5 /* RamblerSegues.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = RamblerSegues;
@@ -601,56 +573,13 @@
 			};
 			name = Debug;
 		};
-		5DA35FDAD4884553CDB7DA128E9BD77E /* Release */ = {
+		58D726C6289DDA735B0D96A55B830408 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6EFE19D8EEF3624C2AF3005B079D694 /* RamblerSegues-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = RamblerSegues;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		67FF1A5477BEB0019D6777F9D8EDD5C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6EFE19D8EEF3624C2AF3005B079D694 /* RamblerSegues-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RamblerSegues/RamblerSegues-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6E514EFFAFBC8A082E95A2BB002CF729 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6EFE19D8EEF3624C2AF3005B079D694 /* RamblerSegues-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RamblerSegues/RamblerSegues-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D9F88A8F7B5E316F6A60CF1A492E1534 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 212E4A5D8E4681DD84C8E5BA049508BB /* Pods-RamblerSegues_Tests.debug.xcconfig */;
+			baseConfigurationReference = ACFE4C8B856A4ED7618F9A75713B66E3 /* Pods-RamblerSegues_Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -660,10 +589,84 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		7F9792FCF327742DD1DAAAB0502D0B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA9638A333ECAD60AB681FDAF9C52A1 /* Pods-RamblerSegues_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A07D3BCC08D4F342D83CABDF360E504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF77DB7E2BCAF67418B3E0E8F3065CE5 /* RamblerSegues.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RamblerSegues;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A0EAF7A8E12155DBD02D5A4EB73BC0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF77DB7E2BCAF67418B3E0E8F3065CE5 /* RamblerSegues.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RamblerSegues/RamblerSegues-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA3B2D4FFE6970B52E4CD014EB0A019A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF77DB7E2BCAF67418B3E0E8F3065CE5 /* RamblerSegues.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RamblerSegues/RamblerSegues-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F0EA9671656A1DE4D72740267D3312C /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9792FCF327742DD1DAAAB0502D0B54 /* Debug */,
+				2F9FD8125C1CE0EB419FDAFE9572CC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -673,38 +676,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AF1D4327A9D8FE710159797C2458254 /* Build configuration list for PBXNativeTarget "RamblerSegues" */ = {
+		43015182134047148E4E9DD4F20AB519 /* Build configuration list for PBXNativeTarget "RamblerSegues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E514EFFAFBC8A082E95A2BB002CF729 /* Debug */,
-				67FF1A5477BEB0019D6777F9D8EDD5C0 /* Release */,
+				A0EAF7A8E12155DBD02D5A4EB73BC0AC /* Debug */,
+				CA3B2D4FFE6970B52E4CD014EB0A019A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5670ED4788205FAD08C015D5566394C5 /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Example" */ = {
+		648D06291BB9284A1D0C4042B069462F /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				145FD05A0AA6FFBB57F9120FA9B45139 /* Debug */,
-				0DFCD710526BE3D331A9C0BF791F557D /* Release */,
+				58D726C6289DDA735B0D96A55B830408 /* Debug */,
+				0A7AD920EA1C52657805FE8B566C0DC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B8927AABE8AE1F09A2228BC516D70A9 /* Build configuration list for PBXNativeTarget "RamblerSegues-RamblerSegues" */ = {
+		97D3A17FB6B5A926739CC7859C8205D4 /* Build configuration list for PBXNativeTarget "RamblerSegues-RamblerSegues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				571FD5B4BAB64FD042EA8E688DE4A5E2 /* Debug */,
-				5DA35FDAD4884553CDB7DA128E9BD77E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E286A5756BE8C42F8C0FA689B59F629 /* Build configuration list for PBXNativeTarget "Pods-RamblerSegues_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9F88A8F7B5E316F6A60CF1A492E1534 /* Debug */,
-				42728CE86785DD800C012FC3B24FEE85 /* Release */,
+				588919B9A83D123979008CBA444508AA /* Debug */,
+				A07D3BCC08D4F342D83CABDF360E504F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

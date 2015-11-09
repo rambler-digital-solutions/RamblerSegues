@@ -23,7 +23,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		9B9D1F981BF0927C0050E110 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D1F971BF0927C0050E110 /* Launch Screen.storyboard */; };
+		D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		733D9CB87CD401BDC8A6BCA6 /* Pods-RamblerSegues_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamblerSegues_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RamblerSegues_Tests/Pods-RamblerSegues_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		74E4174B327166C3EA95F896 /* libPods-RamblerSegues_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerSegues_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9B9D1F971BF0927C0050E110 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A6894009F2161C84DD66A33F /* libPods-RamblerSegues_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerSegues_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37D8427DB23EE655FD6C60D /* Pods-RamblerSegues_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamblerSegues_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RamblerSegues_Example/Pods-RamblerSegues_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2626BFB1BCD21B800A3A174 /* AnotherStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnotherStoryboard.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				9B9D1F971BF0927C0050E110 /* Launch Screen.storyboard */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for RamblerSegues */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -208,6 +211,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				1A0E571B3FB8D70D72B982ED /* Copy Pods Resources */,
+				F2F67C61B56C14B80AAA608F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +231,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				7580903665201D608AC4D75F /* Copy Pods Resources */,
+				B6AB1A6BCE28968BEC0618C1 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +285,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				D2626BFC1BCD21B800A3A174 /* AnotherStoryboard.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				9B9D1F981BF0927C0050E110 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +359,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6AB1A6BCE28968BEC0618C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RamblerSegues_Tests/Pods-RamblerSegues_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F67C61B56C14B80AAA608F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RamblerSegues_Example/Pods-RamblerSegues_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
