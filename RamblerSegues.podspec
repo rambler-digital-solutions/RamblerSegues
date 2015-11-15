@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RamblerSegues"
-  s.version          = "1.0.3"
+  s.version          = "1.1.0"
   s.summary          = "Helpful Segues"
 
   s.description      = <<-DESC
@@ -18,11 +18,11 @@ Helpful Segues
 - Non-automatic embed view controller segue<<-DESC
                        DESC
 
-  s.homepage         = "https://gitlab.rambler.ru/cocoapods/RamblerSegues.git"
+  s.homepage         = "https://github.com/rambler-ios/RamblerSegues.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Andrey Zarembo-Godzyatskiy" => "andrey.zarembo@gmail.com" }
-  s.source           = { :git => "https://gitlab.rambler.ru/cocoapods/RamblerSegues.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/rambler-ios/RamblerSegues.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.header_mappings_dir = 'Pod/Classes'
 
