@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RamblerSegues"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Helpful Segues"
 
   s.description      = <<-DESC
@@ -30,15 +30,16 @@ Helpful Segues
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'RamblerSegues' => ['Pod/Assets/*.png']
-  }
+
+  s.subspec 'Core' do |cs|
+    cs.source_files = "Pod/Classes/RamblerSegues.h"
+  end
 
   s.subspec 'CrossStoryboardSegue' do |css|
-    css.source_files = "CrossStoryboardSegue/CrossStoryboardSegue.h", "CrossStoryboardSegue/**/*.{h,m}"
+    css.source_files = "Pod/Classes/CrossStoryboardSegue/CrossStoryboardSegue.h", "Pod/Classes/CrossStoryboardSegue/**/*.{h,m}"
   end
 
   s.subspec 'EmbedSegue' do |es|
-    es.source_files = "EmbedSegue/EmbedSegue.h", "EmbedSegue/**/*.{h,m}"
+    es.source_files = "Pod/Classes/EmbedSegue/EmbedSegue.h", "Pod/Classes/EmbedSegue/**/*.{h,m}"
   end
 end
