@@ -25,6 +25,16 @@
     
     UIView *containerView = [parentViewController viewForEmbedIdentifier:self.identifier];
     
+    for (UIView *subview in containerView.subviews) {
+        id subviewViewController = [subview nextResponder];
+        
+        if ([subviewViewController isKindOfClass:[UIViewController class]]) {
+            [subviewViewController removeFromParentViewController];
+        }
+        
+        [subview removeFromSuperview];
+    }
+    
     [parentViewController addChildViewController:embeddableModuleViewController];
     UIView *moduleView = embeddableModuleViewController.view;
     [containerView addSubview:moduleView];
