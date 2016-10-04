@@ -32,7 +32,7 @@
     return nil;
   }
   ```
-4. Enjoy - now you can manage child view controller transitions just like any other - even from `Router` using [ViperMcFlurry](https://github.com/rambler-ios/ViperMcFlurry).
+4. Enjoy - now you can manage child view controller transitions just like any other - even from `Router` using [ViperMcFlurry](https://github.com/rambler-digital-solutions/ViperMcFlurry).
 
 #### CrossStoryboardSegue
 
