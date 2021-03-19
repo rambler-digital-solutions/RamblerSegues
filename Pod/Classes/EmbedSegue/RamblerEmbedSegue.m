@@ -27,7 +27,9 @@
     
     [parentViewController addChildViewController:embeddableModuleViewController];
     UIView *moduleView = embeddableModuleViewController.view;
+    [embeddableModuleViewController beginAppearanceTransition:YES animated:NO];
     [containerView addSubview:moduleView];
+    [embeddableModuleViewController endAppearanceTransition];
     [embeddableModuleViewController didMoveToParentViewController:parentViewController];
     
     moduleView.translatesAutoresizingMaskIntoConstraints = NO;
